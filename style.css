@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("./hotel-wallpaper.png");
+    font-family: sans-serif;
+    color: #666666;
+}
+
+.allWindows {
+    position: relative;
+}
+
+#timer {
+    width: 125px;
+    color: #dddddd;
+}
+
+.heading {
+    font-size: 24px;
+}
