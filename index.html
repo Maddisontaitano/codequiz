@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+<div class="allWindows">
+
 <!-- Nav bar for highscores and timer-->
     <nav class="ribbon">
         <div><a id="viewHighScores" href="#">View All High Scores</a></div>
@@ -35,6 +39,24 @@
             <div class="wrongAnswer hide">Oops! 10 Second Penalty</div>
         </div>
     </div>
+<!-- results, and submitting them to hiscore board-->
+    <div class="quizResults hide">
+        <h3 class="messageToUser">You Made It To The End!</h3>
+        <p class="messageToUser">Your final score is <span id="finalScore">sample</span>%</p>
+        <div class="userName">
+            <label id="name" for="name"> Enter your Name: </label>
+            <input id="playerName" type="text">
+            <button id="submit" class="button">Submit</button>
+        </div>
+    </div>
+<!-- Highscores board-->
+        <div class="highScores hide">
+            <h3 class="messageToUser">Recent Highscores:</h3>
+            <div id="scores">
+            </div>
+            
+        </div>
 
+</div>
 </body>
 </html>
