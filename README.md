@@ -14,6 +14,6 @@ I found the Java script very challenging in this. The function for the timer and
 Deployed GitHub Repository
 https://maddisontaitano.github.io/codequiz/
 
-<img src="browserCodeQuiz.png" alt="Code quiz in browser.">
-<img src="JavaScriptCodeQuiz.png" alt="Javascript snippet.">
-<img src="htmlCodeQuiz.png" alt="html snippet.">
+<img src="imgs/browserCodeQuiz.png" alt="Code quiz in browser.">
+<img src="imgs/JavaScriptCodeQuiz.png" alt="Javascript snippet.">
+<img src="imgs/htmlCodeQuiz.png" alt="html snippet.">
