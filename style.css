@@ -19,3 +19,47 @@ body{
     font-size: 24px;
     color: #4fd8d8 ;
 }
+.ribbon{
+    float: right;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+width: 300px;
+max-width: 80%;
+background-color: #4fd8d8;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0 0 10px 2px;
+}
+
+.choices{
+display: grid;
+grid-template-columns: repeat(2, auto) ;
+gap: 10px;
+margin: 20px 0;
+}
+
+.button {
+border: 20px;
+background-color: #666666;
+padding: 5px 10px;
+color: #ffffff;
+}
+
+.result {
+    text-align: center ;
+    align-items: center ;
+}
+
+.hide {
+    display: none ;
+}

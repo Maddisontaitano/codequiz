@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
     <link rel="stylesheet" href="./style.css">
+   
 </head>
 <body>
 
-<div class="allWindows">
+    
+<div class="allWindows"> 
 
 <!-- Nav bar for highscores and timer-->
     <nav class="ribbon">
@@ -17,18 +19,21 @@
     </nav>
 
 <!-- start button and rules-->
-    <div class="preQuizWindow messageToUser hide">
+    <div class="preQuizWindow messageToUser">
         <h3 class="messageToUser">Coding Quiz Challenge</h3>
         <p class="messageToUser">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by <span id='ten'>10</span> seconds!</p>
-        <button id="startButton" class="button">Start Quiz</button>
+        <button class="startButton">Start Quiz</button>
+
     </div>
+    
+    
 
 <!-- quiz questions-->
-    <div class="quizQuestions hide ">
-        <div class="messageToUser">
+    <div class="container">
+        <div class="messageToUser hide">
                 <h3 id="quizQuestionsTitle">sample</h3>
         </div>
-        <div class="choices messageToUser ">
+        <div class="choices hide">
             <div><button class="button">1. <span id='but1'>sample</span> </button></div>
             <div><button class="button">2. <span id='but2'>sample</span> </button></div>
             <div><button class="button">3. <span id='but3'>sample</span></button></div>
@@ -39,7 +44,7 @@
             <div class="wrongAnswer hide">Oops! 10 Second Penalty</div>
         </div>
     </div>
-<!-- results, and submitting them to hiscore board-->
+<!-- results, and submitting them to highscore board-->
     <div class="quizResults hide">
         <h3 class="messageToUser">You Made It To The End!</h3>
         <p class="messageToUser">Your final score is <span id="finalScore">sample</span>%</p>
@@ -56,7 +61,8 @@
             </div>
             
         </div>
-
 </div>
+</div>
+<script src="script.js"></script> 
 </body>
 </html>
