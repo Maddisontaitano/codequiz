@@ -8,11 +8,12 @@ body{
 
 .allWindows {
     position: relative;
-}
+   }
 
 #timer {
     width: 125px;
-    color: #4fd8d8;
+    color: black;
+
 }
 
 .heading {
