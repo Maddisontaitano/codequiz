@@ -21,34 +21,34 @@ var highScores = document.querySelector(".highScores");
 // question and answers
 var questions = [
     {
-      question: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      question: "",
+      choices: [""],
+      answer: ""
     },
     {
-      question: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      question: "",
+      choices: [''],
+      answer: ""
     },
     {
-      question: "Which of the HTML tags listed below does not require a closing tag?",
-      choices: ["header","p","div","br"],
-      answer: "br",
+      question: "",
+      choices: [""],
+      answer: "",
     },
     {
-      question:"When was the programming language C# released?",
-      choices:["1998","1999","2001","2000"],
-      answer:"2000",
+      question:"",
+      choices:[""],
+      answer:"",
     },
     {
-      question: "Which of the below would you use to close off a CSS block?",
-      choices:[ "[ ]","( )","< >","{ }"],
-      answer: "{ }",
+      question: "",
+      choices:[ ""],
+      answer: "",
     },
     {
-      question: "Who created the .net platform?",
-      choices: ["Google","Microsoft","Facebook","Apple"],
-      answer: "Microsoft",
+      question: "",
+      choices: [""],
+      answer: "",
     },
   ]
   
